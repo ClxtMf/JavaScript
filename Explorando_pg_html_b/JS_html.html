@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com JS</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        alert('Hello World!!!');
+    </script>
+
+    <!-- Html Interno -->
+    <!-- <div id="demo"></div> -->
+
+    <!-- Pegando o elemento e mexendo no html interno(id) dele... Colocando a frase -->
+    <!-- <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript";
+    </script> -->
+
+    <h2>O que podemos fazer?</h2>
+    <p>Alterando atributos HTML</p>
+    <p>Alterando o atributo src de uma imagem</p>
+
+
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+    Ligue a luz
+    </button>
+
+    <img src="pic_bulboff.gif" id="myImage" style="width:100px">
+
+
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+        Desligue a luz
+    </button>
+
+</body>
+</html>
