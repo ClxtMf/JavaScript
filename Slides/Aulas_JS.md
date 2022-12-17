@@ -4,5 +4,12 @@ https://docs.google.com/presentation/d/18aNOyypXFibsf-oO-O9qqaaK7kwsxvnj3DCOJA8V
 <h2>aula 02</h2>
 https://docs.google.com/presentation/d/1WdnMaBoOS9uODbMS-4dZj3ot517OGRJi84kA9JiywyM/edit#slide=id.p1
 
+<h2>aula 03</h2>
+https://docs.google.com/presentation/d/1eFJbE2xDkg6BkKDk9-4O9Z8cJ2IaVzFCHqrYTiglFQ8/edit#slide=id.p1
+
+<h2>aula 04</h2>
+https://infinityschool.eadplataforma.com/lesson/detail/145/2886/
+
+
 
 
