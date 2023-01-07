@@ -59,3 +59,108 @@ function questao5() {
     }
 }
 questao5()
+
+
+// Relembrando aula passada
+
+/**
+ * function <nome> (<argumento>){
+ *     <código>
+ * }
+ * 
+ * -> chamando função
+ * <nome> (<argumento>);
+ */
+
+
+// Alterando endereço
+// function autenticar() {
+//     let usuario = prompt('Digite o seu usuário: ');
+//     let senha = prompt('Digite sua senha: ');
+
+//     if(usuario == 'admin' && senha == '1234') {
+//        alert('dados confirmados!!!')
+//     } else {
+//        alert('Dados incorretos!')
+//     }
+// }
+
+//Alterando foto
+// autenticar()
+//Solicitar apagar conta
+// autenticar()
+//Alterando endereço
+// autenticar()
+
+
+// Aula 05 - 710
+
+// 1. Crie uma função que leia a distancia percorrida e o consumo do veiculo. Em seguida calcule quantos lts de gasolina o veiculo gastou na viagem.
+
+function lts_gasolina() {
+    let distancia = Number(prompt('Digite a distancia percorrida pelo carro: '));
+    let consumo = Number(prompt('Digite o consumo por km do carro: '));
+
+    let consumoTotal = distancia/consumo;
+    alert(`Seu veiculo gastou ${consumoTotal}`);
+}
+lts_gasolina()
+
+// 2. Crie uma função que calcula a velocidade média de um veiculo. Para isso leia a distancia e o tempo da viagem. 
+
+function velocidadeMedia() {
+    let distancia = Number(prompt('Informe a distancia percorrida: '))
+    let tempo = Number(prompt('Informe o tempo da viagem: '))
+
+    let velocidaMedia = distancia/tempo;
+    alert(`Velocidade média: ${velocidaMedia}km/h`)
+}
+velocidadeMedia()
+
+// 3. Crie uma função que leia base maior, base menor, altura. E em seguida calcule a área de um trapézio. 
+// area = (base maior + base menor) * altura / 2
+
+function calcTrapezio() {
+    let baseMaior = Number(prompt('Informe a base maior: '))
+    let baseMenor = Number(prompt('Infomer a base menor: '))
+    let altura = Number(prompt('Informe a altura do trápezio: '))
+
+    let areaTrapezio = ((baseMaior + baseMenor) * altura) / 2;
+    alert(`Área do trapézio = ${areaTrapezio}`);
+}
+calcTrapezio()
+
+// 4. Crie uma função que imprima uma sequencia de números de 0 a 50. Utilize o laço for
+
+function contagem() {
+    for(let i = 0; i <= 50; i++) {
+        console.log(i);
+    }
+}
+contagem();
+
+
+
+
+//   parâmetros ou argumentos
+
+// 01 -  parâmetros
+function calcConsumo(distancia, consumo) {
+    let consumoTotal = distancia/consumo;
+    alert(`Consumo total = ${consumoTotal}lts`);
+}
+calcConsumo(240, 12);
+
+// 02 - parâmetros
+function velocidadeMedia(distancia, tempo) {
+    let velocidade = distancia / tempo;
+    alert(`Velocidade Média: ${velocidade}km/h`);
+}
+velocidadeMedia(200, 2);
+
+// 03 - parãmetros
+function calcTrapezio(baseMaior, baseMenor, altura) {
+    let areaTrapezio = ((baseMaior + baseMenor) * altura) / 2;
+    alert(`Área do trapézio = ${areaTrapezio}`);
+}
+calcTrapezio()
