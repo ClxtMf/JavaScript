@@ -164,3 +164,88 @@ function calcTrapezio(baseMaior, baseMenor, altura) {
     alert(`Área do trapézio = ${areaTrapezio}`);
 }
 calcTrapezio()
+
+
+//   parâmetros ou argumentos
+
+// 01 -  parâmetros
+function calcConsumo(distancia, consumo) {
+    let consumoTotal = distancia/consumo;
+    alert(`Consumo total = ${consumoTotal}lts`);
+}
+calcConsumo(240, 12);
+
+// 02 - parâmetros
+function velocidadeMedia(distancia, tempo) {
+    let velocidade = distancia / tempo;
+    alert(`Velocidade Média: ${velocidade}km/h`);
+}
+velocidadeMedia(200, 2);
+
+// 03 - parãmetros
+function calcTrapezio(baseMaior, baseMenor, altura) {
+    let areaTrapezio = ((baseMaior + baseMenor) * altura) / 2;
+    alert(`Área do trapézio = ${areaTrapezio}`);
+}
+calcTrapezio()
+
+// Atividades
+
+// 01. Escreva uma função que recebe um nome como parâmetro e imprima uma mensagem “Olá” + nome
+
+function nome(nome){
+    alert(`Olá ${nome}, seja bem-vindo!!!`);
+}
+nome('Márcio');
+
+// 02. Escreva uma função que recebe um lado como parâmetro, calcule a área desse quadrado e exiba no console. 
+
+function area(lado){
+    let area = lado ** 2;
+    alert(area)
+}
+area(10)
+
+// 03. Escreva uma função que recebe dois parâmetros, base e altura. Em seguida calcula a área desse triângulo e a exiba na tela.
+
+function areaTri(base, altura){
+    let area = base * altura / 2;
+    alert(area)
+}
+areaTri(10, 5)
+
+// 04. Escreva uma função que recebe um número e imprima todos os inteiros de 0 até este número recebido.
+
+function contagem(numero){
+    for(let i = 0; i <= numero; i++);
+    alert(i);
+}
+contagem(10);
+
+// 05. Escreva uma função que recebe um número como parâmetros e imprima todos os pares de 0 até essenúmero.
+
+function contagemPar(numero){
+    for(let i = 0; i <= numero; i++);
+    if(i % 2 == 0 ){
+        alert(i)
+    } 
+}
+contagemPar(10);
+
+
+
+// 6. Criue uma função que recebe 3 parametros (2 inteiros e um real) em seguida calcule e mostre.
+// a. O produto (multiplicação) do dobro do primeiro com a metade do segundo
+// b. A soma do triplo do primeiro com o terceiro
+// c. O terceiro ao cubo
+
+function calculo(primeiro, segundo, terceiro) {
+    let resultado1 = (primeiro * 2) * (segundo / 2);
+    let resultado2 = (primeiro * 3) + terceiro;
+    let resultado3 = terceiro ** 3;
+    alert(resultado1);
+    alert(resultado2);
+    alert(resultado3);
+}
+
+calculo(10, 5, 3.5);
