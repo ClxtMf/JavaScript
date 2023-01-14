@@ -276,3 +276,52 @@ const calculoVelocidade = (distancia, tempo) => {
 }
 
 alert(calculoVelocidade(200, 2));
+
+------------------------------------------------------------------------------------
+
+// const areaQuadrado = (lado) => {
+//     area = lado ** 2;
+//     return area
+// };
+
+// function areaQ(lado) {
+//     let area = lado ** 2;
+//     return area;
+// };
+
+// let areaQuad = areaQ(5);
+// console.log(areaQuad);
+
+
+
+
+// 1. Crie uma arrow function que recebe o tempo e a velocidade media percorrida por parâmetro. 
+// Em seguida calcule o consumo de combustivel realizado nessa viagem, levando em consideração 
+// que o veiculo faz 12km/l. Retorne este resultado e exiba no console ou no alert.
+
+const consumoCombustivel = (tempo, velocidadeMedia) => {
+    let distancia = tempo * velocidadeMedia;
+    let qtdlitros = distancia / 12;
+    return qtdlitros;
+};
+
+alert(consumoCombustivel(2, 200))
+
+// 2. Dois carros partiram do mesmo ponto ao mesmo tempo, onde o carro x estava a 90km/h e o carro y estava a 60km/h. 
+// Após uma hora de viagem o carro x estava 30km de distancia a frente, ou seja. O carro x se distanciava 1km a cada 2min. 
+// Crie uma arrow function que recebea distancia em km e retorne quantos minutos demorou para ele chegar a essa distancia 
+
+const calculoMinutos = (distancia) => {
+    let tempo = distancia * 2;
+    return tempo;
+}
+
+console.log(`Tempo necessário = ${calculoMinutos(120)} minutos`);
+
+
+// DESAFIO 
+
+// Crie uma arrow function que recebe um valor por parâmetro e retorne a quantidade de notas de 
+// 100, 50, 20, 10, 5, 1 necessárias para gerar esse valor. 
+
+// Math.floor(<divisão>)
