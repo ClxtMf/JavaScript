@@ -1,3 +1,23 @@
+//                 0         1           2
+let carrinho = ['Mouse', 'Monitor', 'Teclado'];
+console.log(carrinho);
+console.log(typeof carrinho);
+
+// como acessar um item em um array
+console.log(carrinho[0]);
+
+
+// como modificar o item de um array
+carrinho[0] = 'Mouse logitec 800dpi'
+console.log(carrinho);
+
+// propriedades de um array
+console.log(`Qts de itens no carrinho: ${carrinho.length}`);
+
+console.log(`Ultimo item do array: ${carrinho[carrinho.length - 1]}`);
+
+---------------------------------------------------------
+
 let numeros = [10, 20, 30, 40, 50];
 
 // percorrendo um array
