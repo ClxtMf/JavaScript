@@ -138,3 +138,33 @@ console.lof(array)
 // como remover o ultimo item do array
 array.pop();
 console.log(array);
+
+-----------------------------------------------------------------
+    
+let array = [10, 20, 30, 40, 50];
+console.log(array);
+
+// como add o primeiro item do array
+array.unshift(15);
+console.log(array);
+
+// como remover o primeiro item do array
+array.shift();
+console.log(array);
+
+----------------------------------------------------------------
+
+let array = [10, 20, 30, 40, 50];
+console.log(array);
+
+// como add em qualquer posição possível do array
+// modos
+// 0-> inserir
+// 1-> apagar
+// splice (indice, <modo>, <valor>)
+array.splice(2, 0, 333)
+console.log(array);
+
+// como excluir em qualquer posição possivel
+array.splice(4, 1);
+console.log(array);
