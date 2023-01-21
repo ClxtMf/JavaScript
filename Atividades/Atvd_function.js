@@ -325,3 +325,39 @@ console.log(`Tempo necessário = ${calculoMinutos(120)} minutos`);
 // 100, 50, 20, 10, 5, 1 necessárias para gerar esse valor. 
 
 // Math.floor(<divisão>)
+
+//            0  1   2
+let notas = [10, 5, 8.7];
+let dados = ['Infinity', 100, true];
+
+console.log(notas);
+console.log(dados);
+console.log(typeof notas);
+console.log(`Primeira nota = ${notas[0]}`);
+
+/*
+Como acessar os itens de um array
+<nome-do-array>[<indice>]
+
+Como alterar o valor de um item de um array
+<nome-do-array>[<indice>] = <valor>
+
+*/
+console.log(notas);
+console.log(`Segunda nota antes = ${notas[1]}`);
+notas[1] = notas[1] + 1;
+console.log(notas);
+console.log(`Segunda nota depois = ${notas[1]}`);
+
+//
+
+function calcularMedia(nota1, nota2, nota3) {
+    let notas = [nota1, nota2, nota3];
+    notas[1] = notas[1] / 2;
+    let media = (notas[0] + notas[1] + notas[2]) / notas.length;
+
+    console.log(notas);
+    console.log(media.toFixed(2));
+}
+
+calcularMedia(7.5, 8.3, 5.9);
