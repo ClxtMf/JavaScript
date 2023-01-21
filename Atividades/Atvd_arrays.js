@@ -90,3 +90,51 @@ alert(`Dados do aluno = ${dadosDoAluno}`);
 dadosDoAluno.pop();
 alert('Dados removidos com sucesso!');
 alert(`Dados do aluno = ${dadosDoAluno}`);
+
+---------------------------------------------------------
+    
+    function qst1 (preco1, preco2, preco3) {
+
+    let precos = [preco1, preco2, preco3];
+    precos[1] = precos[1] * 0.9;
+    
+    console.log(precos)
+}
+
+qst1(123, 150, 40);
+
+----------------------------------------------------------
+let carrinho = ['Monitor', 'Mouse', 'Teclado']
+
+for (let i = 0; i < carrinho.length; i++) { // i = 0 1 2 3
+    if (carrinho[1] == 'Monitor') {
+        console.log('tem monitor no carrinho')
+    } 
+    console.log(carrinho[i]); // carrinho[0] carrinho [1] carrinho[2]
+}
+
+-------------------------------------------------------------
+    
+let array = [10, 2, 3, 5, 7, 18, 21, 22, 26]
+
+let qtdPares = 0;
+for (let i = 0; i < array.length; i++) {
+    if(array[i] % 2 == 0){
+        qtdPares++;
+    }
+}
+
+console.log(`Quantidade de pares: ${qtdPares}`);
+
+--------------------------------------------------------------
+
+let array = [10, 20, 30, 40, 50];
+console.log(array);
+
+// como add um item ao final do array
+array.push(60);
+console.lof(array)
+
+// como remover o ultimo item do array
+array.pop();
+console.log(array);
