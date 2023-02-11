@@ -13,4 +13,10 @@ https://infinityschool.eadplataforma.com/lesson/detail/145/2886/
 <h2> aula 05</h2>
 https://docs.google.com/presentation/d/1g5QzWHMDujIl0FBBdRBP3tO0q7dJy4UYSjD5ETy3jWE/edit#slide=id.p1
 
+<h2> aula 06</h2>
+https://docs.google.com/presentation/d/193ZcXul6VbfgtGq3rJEcdar1NyZit2x2M_8to03hC0c/edit#slide=id.p1
+
+<h2> aula 07</h2>
+https://docs.google.com/presentation/d/1SVihfDOn_Qzm4c8k9kRpW_h_7O-AYow9C83ZNc_PTTo/edit#slide=id.p1
+
 
